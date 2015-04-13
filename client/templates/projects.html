@@ -1,0 +1,16 @@
+<template name="projectItem">
+  <div class="project">
+    <div class="project-content">
+      <h3><a href="{{pathFor 'projectPage'}}">{{title}}</a></h3>
+    </div>
+  </div>
+</template>
+
+<template name="projectsList">
+    <div class="projects">
+        {{#each projects}}
+            {{> projectItem}}
+        {{/each}}
+    </div>
+</template>
+

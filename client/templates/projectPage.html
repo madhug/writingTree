@@ -1,0 +1,30 @@
+<template name="projectPage">
+  <div class="project-page page">
+    <h3>{{project.title}}</h3>
+    <p>{{project.summary}}</p>
+    <div class="work-area">
+        <div class="map-space">
+            {{> nodeDisplay nodes=nodes}}
+        </div>
+        <div class="type-space">
+            {{> typeDisplay nodes=nodes}}
+        </div>
+    </div>
+  </div>
+</template>
+
+
+<template name="nodeDisplay">
+   {{#each nodes}}
+        <b>{{name}}</b>
+        <i>{{summary}}</i>
+        <br/>
+    {{/each}} 
+</template>
+
+<template name="typeDisplay">
+    {{#each nodes}}
+        <p>{{text}}</p>
+        <br/>
+    {{/each}}
+</template>
