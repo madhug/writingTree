@@ -187,4 +187,9 @@ body {
   padding: 15px;
 }
 
+#svgdiv{
+  height: 100%;
+  width: 100%;
+}
+
 

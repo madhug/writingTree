@@ -12,7 +12,7 @@ Project
 Nodes - 
 {
      _id: 1,
-     projectid: projectid,
+     project: projectcode,
      type: "story",
      name: “node 1”,
      text: "quick brown fox jumped over the lazy dog",
