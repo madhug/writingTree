@@ -193,3 +193,20 @@ body {
 }
 
 
+circle {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+line{
+  stroke: #000;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-anchor: middle;
+}
+

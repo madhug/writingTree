@@ -19,9 +19,10 @@ Template.nodeDisplay.rendered = function() {
     var graph = new StoryMap(el,$(el).width(),$(el).height());
     
     var nodes = Nodes.find({project: this.data.projectCode});
+    var links = Links.find({project: this.data.projectCode, maptype: "story"});
 
     var added = function (doc) {
-        graph.addNode(doc.name);
+        graph.addNode(doc._id, doc.name);
       };
 
     var removed = function (doc) {
@@ -33,12 +34,12 @@ Template.nodeDisplay.rendered = function() {
       removed: removed
     });
 
-    /*Links.find().observe({
+    links.observe({
       added: function (doc) {
-        graph.addLink(doc._id, doc.source, doc.target, doc.value);
+        graph.addLink(doc._id, doc.source, doc.target, 2);
       },
       removed: function (doc) {
         graph.removeLink(doc._id);
       }
-    });*/
+    });
 }

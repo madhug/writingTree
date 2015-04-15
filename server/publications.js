@@ -5,3 +5,9 @@ Meteor.publish('projects', function(userid){
 Meteor.publish('nodes', function(){
     return Nodes.find();
 })
+
+Meteor.publish('links', function(){
+    return Links.find();
+})
+
+
