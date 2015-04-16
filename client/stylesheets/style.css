@@ -199,8 +199,8 @@ circle {
   stroke-width: 1.5px;
 }
 
-line{
-  stroke: #000;
+.node.selected circle{
+    fill: red;
 }
 
 text {
@@ -208,5 +208,9 @@ text {
   font: 10px sans-serif;
   pointer-events: none;
   text-anchor: middle;
+}
+
+.text.selectedNode{
+  color: red;
 }
 

@@ -1,13 +1,13 @@
 <template name="projectPage">
   <div class="project-page page">
-    <h3>{{title}}</h3>
-    <p>{{summary}}</p>
+    <h3>{{project.title}}</h3>
+    <p>{{project.summary}}</p>
     <div class="work-area">
         <div class="map-space">
-            {{> nodeDisplay projectCode=code}}
+            {{> nodeDisplay nodes=nodes}}
         </div>
         <div class="type-space">
-            {{> typeDisplay projectCode=code}}
+            {{> typeDisplay nodes=nodes}}
         </div>
     </div>
   </div>
@@ -20,7 +20,7 @@
 
 <template name="typeDisplay">
     {{#each nodesData}}
-        <p>{{text}}</p>
+        <p class="text {{isNodeSelected}}">{{text}}</p>
         <br/>
     {{/each}}
 </template>

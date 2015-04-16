@@ -9,14 +9,9 @@ Project
      miscellaniesmap_root_id: "miscellaniesmap_root_id"     
 }
 
-Nodes - 
-{
-     _id: 1,
-     project: projectcode,
-     type: "story",
-     name: “node 1”,
-     text: "quick brown fox jumped over the lazy dog",
-} 
+{ "_id" : "1", "project" : "bastardFrog", "type" : "story", "name" : "Assassin", "summary" : "Intro to the Assassin", "text" : "Once upon a time, in a land far far away, there lived an assassin of much repute. She was known to have brought down a man of the size of a mountain with merely a toothpick. No one knew her real name or where she was from. But if there was a famous death in the land, everyone knew it was her. " },
+{ "_id" : "2", "project" : "bastardFrog", "type" : "story", "name" : "Dark Forest", "summary" : "The assassin walks into the Dark forest", "text" : "One day, when a child was playing in the field near the Dark forest, he thought he saw a small woman dressed in all black, enter the forest. His mother forbade him from telling this to anyone. " },
+{ "_id" : "3", "project" : "bastardFrog", "type" : "story", "name":"Great City" , "summary" : "The assassin comes to the Great City", "text" : "On the night of the full moon, the citizens of the Great City were transfixed by the assassin visiting their city; not in stealth but in full view of everyone in the city" },
 
 Links - 
 
@@ -32,30 +27,6 @@ Links -
      source: 1, 
      target: 3,
      type: 'children',
-     project: "bastardFrog",
-     maptype: "story"
-},
-
-{
-     source: 1, 
-     target: 4,
-     type: 'children',
-     project: "bastardFrog",
-     maptype: "story"
-},
-
-{
-     source: 2, 
-     target: 5,
-     type: 'subplot',
-     project: "bastardFrog",
-     maptype: "story"
-},
-
-{
-     source: 3, 
-     target: 6,
-     type: 'subplot',
      project: "bastardFrog",
      maptype: "story"
 }]

@@ -9,7 +9,14 @@ Template.projectsList.helpers({
 
 Template.typeDisplay.helpers({
     nodesData: function(){
-        return Nodes.find({project: this.projectCode});
+        return this.nodes.fetch();
+    },
+    isNodeSelected: function() {
+      console.log("Session: ",Session.get("selected_node"));
+      console.log("this._id: ",this._id);
+      if(Session.get("selected_node") == this._id) {
+        return "selectedNode"
+      }
     }
 })
 
@@ -18,8 +25,9 @@ Template.nodeDisplay.rendered = function() {
     var el = this.find("[id=svgdiv]");
     var graph = new StoryMap(el,$(el).width(),$(el).height());
     
-    var nodes = Nodes.find({project: this.data.projectCode});
-    var links = Links.find({project: this.data.projectCode, maptype: "story"});
+    var nodes = this.data.nodes;
+
+    var links = Links.find({project: nodes.fetch()[0].project, maptype: "story"});
 
     var added = function (doc) {
         graph.addNode(doc._id, doc.name);
@@ -43,3 +51,25 @@ Template.nodeDisplay.rendered = function() {
       }
     });
 }
+
+Template.nodeDisplay.events({
+    'click .node':function(event, template){
+        /*remove previous selection*/
+        d3.selectAll('.selected circle').attr("r",32);
+        d3.selectAll('.selected').each(
+            function(d){
+                d.fixed = false;
+                d3.select(this)
+                .classed('selected', false);
+            }
+        );
+        
+        /*add new selections*/
+        d3.select(event.currentTarget)
+        .classed("selected", true)
+        d3.selectAll('.selected circle').attr("r",40);
+
+        var selected_id = $(event.currentTarget).data("id");
+        Session.set("selected_node", selected_id);
+    }
+});
