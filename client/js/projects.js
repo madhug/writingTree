@@ -9,13 +9,15 @@ Template.projectsList.helpers({
 
 Template.typeDisplay.helpers({
     nodesData: function(){
-        return this.nodes.fetch();
+        var nodes = Nodes.find({project:this.project}).fetch();
+        var nodeIds = nodes.map(function(n) { return parseInt(n._id) });
+        var text = Texts.find({node:{$in: nodeIds}}).fetch();
+        
+        return text;
     },
     isNodeSelected: function() {
-      console.log("Session: ",Session.get("selected_node"));
-      console.log("this._id: ",this._id);
-      if(Session.get("selected_node") == this._id) {
-        return "selectedNode"
+      if(Session.get("selected_node") == this.node) {
+        return "selectedNode";
       }
     }
 })
@@ -25,9 +27,9 @@ Template.nodeDisplay.rendered = function() {
     var el = this.find("[id=svgdiv]");
     var graph = new StoryMap(el,$(el).width(),$(el).height());
     
-    var nodes = this.data.nodes;
+    var nodes = Nodes.find({project:this.data.project});
 
-    var links = Links.find({project: nodes.fetch()[0].project, maptype: "story"});
+    var links = Links.find({project: this.data.project, maptype: "story"});
 
     var added = function (doc) {
         graph.addNode(doc._id, doc.name);

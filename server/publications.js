@@ -10,4 +10,8 @@ Meteor.publish('links', function(){
     return Links.find();
 })
 
+Meteor.publish('texts', function(){
+    return Texts.find();
+})
+
 
