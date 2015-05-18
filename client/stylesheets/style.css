@@ -8,7 +8,7 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 body {
-  background: #eee;
+  background: #fff;
   color: #666666; }
 
 #main {
@@ -168,13 +168,13 @@ body {
 
 .work-area{
   height: 500px;
-  border: 1px solid black;
+  border: 1px dotted #ccc;
 }
 .map-space{
   float: left;
   width: 70%;
   height: 100%;
-  border-right: 2px solid black;
+  border-right: 1px dotted #ccc;
   padding: 15px;
 }
 
@@ -182,7 +182,7 @@ body {
   float: left;
   width: 30%;
   height: 100%;
-  border-left: 2px solid black;
+  border-left: 1px dotted #ccc;
   overflow: scroll;
   padding: 15px;
 }
@@ -199,8 +199,15 @@ circle {
   stroke-width: 1.5px;
 }
 
-.node.selected circle{
+.node.selected circle {
     fill: red;
+    stroke: red;
+    r: 40;
+}
+
+.node.selected text {
+  fill: #fff;
+  font: 12px sans-serif;;
 }
 
 text {
@@ -211,6 +218,26 @@ text {
 }
 
 .text.selectedNode{
-  color: red;
+  -ms-transform: scale(2,2); /* IE 9 */
+  -webkit-transform: scale(2,2); /* Safari */
+  transform: scale(1.025,1.025);
+  border-left: 1px red dotted;
+  padding: 0px 0px 0 5px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  transition: all 0.25s ease-in-out;
+  font-size: 14px;
+}
+.text.selectedNode p {
+  margin-bottom: 5px;
 }
 
+.text {
+  font-weight: 300;
+  transition: all 0.25s ease-in-out;
+  font-size: 13px;
+}
+
+.container {
+  width: 100% !important;
+}

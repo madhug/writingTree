@@ -4,10 +4,10 @@
     <p>{{project.summary}}</p>
     <div class="work-area">
         <div class="map-space">
-            {{> nodeDisplay project=project.code}}
+            {{> nodeDisplay project=project}}
         </div>
         <div class="type-space">
-            {{> typeDisplay project=project.code}}
+            {{> typeDisplay project=project}}
         </div>
     </div>
   </div>
@@ -20,7 +20,11 @@
 
 <template name="typeDisplay">
     {{#each nodesData}}
-        <p class="text {{isNodeSelected}}">{{text}}</p>
-        <br/>
+        <div class="text {{isNodeSelected}}">
+            {{> froalaReactive _onbeforeSave=doSave _value=text countCharacters=false}}
+        </div>
     {{/each}}
+    <div>
+        {{> froalaReactive _onbeforeSave=doSave countCharacters=false placeholder="Continue writing..."}}
+    </div>
 </template>

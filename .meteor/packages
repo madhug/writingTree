@@ -12,3 +12,6 @@ d3
 ian:accounts-ui-bootstrap-3
 accounts-password
 iron:router
+msavin:mongol
+froala:editor-reactive
+sanjo:jasmine
