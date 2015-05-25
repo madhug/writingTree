@@ -1,8 +1,31 @@
 <template name="projectItem">
   <div class="project">
     <div class="project-content">
-      <h3><a href="{{pathFor 'projectPage'}}">{{title}}</a></h3>
+      <p><a href="{{pathFor 'projectPage'}}">{{title}}</a></p>
+      <p class="summary">{{summary}}</p>
     </div>
+  </div>
+</template>
+
+<template name="createButtonTemplate">
+  <div class="project add createButton">
+      <h1>+</h1>
+  </div>
+</template>
+
+<template name="createFormTemplate">
+  <div class="project add-form">
+    <textarea class="title" placeholder="Title" rows="2" cols="15" noresize></textarea>
+    <textarea class="summary" placeholder="Summary" cols="28" noresize></textarea>
+    <p class="cancel btn btn-link">Cancel</p>
+    <p class="save btn btn-link">Save</p>
+  </div>
+</template>
+
+
+<template name="signupPrompt">
+  <div class="project add-form">
+    <p>Sign up or Log in to start working on your stroy projects</p>
   </div>
 </template>
 
@@ -12,5 +35,7 @@
             {{> projectItem}}
         {{/each}}
     </div>
+    {{> Template.dynamic template=createFlow}}
+    
 </template>
 

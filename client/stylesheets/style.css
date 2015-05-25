@@ -30,52 +30,54 @@ body {
   height: 300px; }
 
 .project {
-  /* For modern browsers */
-  /* For IE 6/7 (trigger hasLayout) */
-  *zoom: 1;
-  position: relative;
-  opacity: 1; }
-  .project:before, .project:after {
-    content: "";
-    display: table; }
-  .project:after {
-    clear: both; }
-  .project.invisible {
-    opacity: 0; }
-  .project.instant {
-    -webkit-transition: none;
-    -moz-transition: none;
-    -o-transition: none;
-    transition: none; }
-  .project.animate{
-    -webkit-transition: all 300ms 0ms;
-    -moz-transition: all 300ms 0ms ease-in;
-    -o-transition: all 300ms 0ms ease-in;
-    transition: all 300ms 0ms ease-in; }
-  .project .upvote {
-    display: block;
-    margin: 7px 12px 0 0;
-    float: left; }
-  .project .project-content {
-    float: left; }
-    .project .project-content h3 {
-      margin: 0;
-      line-height: 1.4;
-      font-size: 18px; }
-      .project .project-content h3 a {
-        display: inline-block;
-        margin-right: 5px; }
-      .project .project-content h3 span {
-        font-weight: normal;
-        font-size: 14px;
-        display: inline-block;
-        color: #aaaaaa; }
-    .project .project-content p {
-      margin: 0; }
-  .project .discuss {
-    display: block;
-    float: right;
-    margin-top: 7px; }
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .project .summary {
+    font-size: 12px;
+  }
+  
+  .project a:hover{
+    text-decoration: none;
+  }
+  
+  .project.add {
+    padding: 20px 25px;
+    cursor: pointer;
+  }
+
+  .project h1 {
+      font-size: 50px;
+  }
+  
+  .project.add-form {
+      width: 200px;
+      height: 200px;
+  }
+
+  .project.add-form textarea.title{
+      margin-left: 0;
+      resize: none;
+      text-align: center;
+      border: none;
+  }
+
+  .project.add-form textarea.summary{
+      margin-left: -20px;
+      height: 50px;
+      resize: none;
+      text-align: center;
+      border: none;
+  }
+
+
 
 .comments {
   list-style-type: none;

@@ -20,11 +20,11 @@
 
 <template name="typeDisplay">
     {{#each nodesData}}
-        <div class="text {{isNodeSelected}}">
-            {{> froalaReactive _onbeforeSave=doSave _value=text countCharacters=false}}
+        <div class="text {{isNodeSelected}}" id={{node}}>
+            {{> froalaReactive _onblur=doUpdate _value=text countCharacters=false}}
         </div>
     {{/each}}
     <div>
-        {{> froalaReactive _onbeforeSave=doSave countCharacters=false placeholder="Continue writing..."}}
+        {{> froalaReactive _onblur=doSave countCharacters=false placeholder="Continue writing..."}}
     </div>
 </template>

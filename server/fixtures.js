@@ -7,7 +7,7 @@
 
 
 
-if (Nodes.find().count() === 0){
+/*  if (Nodes.find().count() === 0){
     Nodes.insert({ _id : "1", project : "bastardFrog", type : "story", name : "Assassin", summary : "Intro to the Assassin" });
     Nodes.insert({ _id : "2", project : "bastardFrog", type : "story", name : "Dark Forest", summary : "The assassin walks into the Dark forest"});
     Nodes.insert({ _id : "3", project : "bastardFrog", type : "story", name : "Great City" , summary : "The assassin comes to the Great City"});
@@ -28,3 +28,20 @@ if (Texts.find().count() === 0){
 db.nodes.insert({ _id : "4", project : "bastardFrog", type : "story", name : "Meeting Crow" , summary : "The assassin meets the Crow in the Dark Forest"});
 db.links.insert({source: "3", target: "4", type: 'children', project: "bastardFrog", maptype: "story"})
 **/
+
+Meteor.startup(function() {
+   if (Meteor.users.find().count() == 0) {
+       var users = [
+           {name:"Normal User",email:"normal@tutorials.com",roles:[], password: "normal3210"},
+           {name:"Admin User",email:"admin@tutorials.com",roles:['admin'], password: "admin3210"}
+       ];
+ 
+       _.each(users, function (user) {
+           var id = Accounts.createUser({
+               email: user.email,
+               password: user.password,
+               profile: { name: user.name }
+           });
+       });
+   };
+});
