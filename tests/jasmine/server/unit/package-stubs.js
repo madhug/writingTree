@@ -6231,6 +6231,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6271,7 +6274,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6296,7 +6299,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6305,17 +6308,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6348,6 +6360,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -6396,6 +6414,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6436,7 +6457,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6461,7 +6482,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6470,17 +6491,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6513,6 +6543,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -6638,6 +6674,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6678,7 +6717,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6703,7 +6742,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6712,17 +6751,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6755,6 +6803,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -6803,6 +6857,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6843,7 +6900,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6868,7 +6925,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6877,17 +6934,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6920,6 +6986,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -7013,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "623501918f0c8d59c78832d60b8aec712ecac5fe"
+                  "value": "13b7346f75f7b0d7b99435814d7dc37b358f2f5d"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7215,2542 +7287,6 @@ var packageMetadata = {
     },
     "main": {
       "type": "function"
-    },
-    "WebAppInternals": {
-      "type": "object",
-      "members": {
-        "identifyBrowser": {
-          "type": "function"
-        },
-        "generateBoilerplateInstance": {
-          "type": "function"
-        },
-        "staticFilesMiddleware": {
-          "type": "function"
-        },
-        "bindToProxy": {
-          "type": "function"
-        },
-        "addRoute": {
-          "type": "function"
-        },
-        "reloadClientPrograms": {
-          "type": "function"
-        },
-        "generateBoilerplate": {
-          "type": "function"
-        },
-        "staticFiles": {
-          "type": "object",
-          "members": {
-            "/packages/underscore.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/underscore.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/underscore.js.map"
-                }
-              }
-            },
-            "/packages/meteor.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteor.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/81e2f06cff198adaa81b3bc09fc4f3728b7370ec.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/81e2f06cff198adaa81b3bc09fc4f3728b7370ec.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteor.js.map"
-                }
-              }
-            },
-            "/packages/json.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/json.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e22856eae714c681199eabc5c0710b904b125554.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e22856eae714c681199eabc5c0710b904b125554.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/json.js.map"
-                }
-              }
-            },
-            "/packages/base64.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/base64.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/1a63019243b73298e2964e6d4680f25bca657726.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/1a63019243b73298e2964e6d4680f25bca657726.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/base64.js.map"
-                }
-              }
-            },
-            "/packages/ejson.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ejson.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ejson.js.map"
-                }
-              }
-            },
-            "/packages/logging.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/logging.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/07e201b648f16be8435a4f666156995eeda0c750.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/07e201b648f16be8435a4f666156995eeda0c750.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/logging.js.map"
-                }
-              }
-            },
-            "/packages/reload.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/reload.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/reload.js.map"
-                }
-              }
-            },
-            "/packages/tracker.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/tracker.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/517c8fe8ed6408951a30941e64a5383a7174bcfa.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/517c8fe8ed6408951a30941e64a5383a7174bcfa.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/tracker.js.map"
-                }
-              }
-            },
-            "/packages/random.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/random.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/random.js.map"
-                }
-              }
-            },
-            "/packages/retry.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/retry.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/retry.js.map"
-                }
-              }
-            },
-            "/packages/check.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/check.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ac81167b8513b85b926c167bba423981b0c4cf9c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ac81167b8513b85b926c167bba423981b0c4cf9c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/check.js.map"
-                }
-              }
-            },
-            "/packages/id-map.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/id-map.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/id-map.js.map"
-                }
-              }
-            },
-            "/packages/ordered-dict.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ordered-dict.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map"
-                }
-              }
-            },
-            "/packages/geojson-utils.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/geojson-utils.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map"
-                }
-              }
-            },
-            "/packages/minimongo.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/minimongo.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e8806aa7782b729b2517ebc0cd10b321667f1427.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e8806aa7782b729b2517ebc0cd10b321667f1427.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/minimongo.js.map"
-                }
-              }
-            },
-            "/packages/ddp.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ddp.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/41b62dcceb3ce0de6ca79c6aed088cccde6a44d8.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/41b62dcceb3ce0de6ca79c6aed088cccde6a44d8.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ddp.js.map"
-                }
-              }
-            },
-            "/packages/follower-livedata.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/follower-livedata.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/follower-livedata.js.map"
-                }
-              }
-            },
-            "/packages/application-configuration.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/application-configuration.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/application-configuration.js.map"
-                }
-              }
-            },
-            "/packages/insecure.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/insecure.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/insecure.js.map"
-                }
-              }
-            },
-            "/packages/mongo.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/mongo.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/052f30e968644b2b39a96605ffee73a7684ff37b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/052f30e968644b2b39a96605ffee73a7684ff37b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/mongo.js.map"
-                }
-              }
-            },
-            "/packages/autoupdate.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/autoupdate.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9a5ea03bf057815385bf569c7acc2c285c005491.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9a5ea03bf057815385bf569c7acc2c285c005491.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map"
-                }
-              }
-            },
-            "/packages/meteor-platform.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteor-platform.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map"
-                }
-              }
-            },
-            "/packages/jquery.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/jquery.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/jquery.js.map"
-                }
-              }
-            },
-            "/packages/twbs_bootstrap.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e448ccf9152d78f24a6299968e1f39c997a02dbc.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e448ccf9152d78f24a6299968e1f39c997a02dbc.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js.map"
-                }
-              }
-            },
-            "/packages/d3.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/d3.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9961945f4971ab1b110ad9b3f9bd0f23cdc15944.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9961945f4971ab1b110ad9b3f9bd0f23cdc15944.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/d3.js.map"
-                }
-              }
-            },
-            "/packages/reactive-dict.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
-                }
-              }
-            },
-            "/packages/session.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/session.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/session.js.map"
-                }
-              }
-            },
-            "/packages/deps.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/deps.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/deps.js.map"
-                }
-              }
-            },
-            "/packages/htmljs.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/htmljs.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/567eb96d5d22631c03d6aca6afa4c42f0d1295f2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/567eb96d5d22631c03d6aca6afa4c42f0d1295f2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/htmljs.js.map"
-                }
-              }
-            },
-            "/packages/observe-sequence.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/observe-sequence.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/2fd807ea171ead273b9e6458607cb226012d9240.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/2fd807ea171ead273b9e6458607cb226012d9240.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map"
-                }
-              }
-            },
-            "/packages/reactive-var.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/reactive-var.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map"
-                }
-              }
-            },
-            "/packages/blaze.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/blaze.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/efa68f65e67544b5a05509804bf97e2c91ce75eb.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/efa68f65e67544b5a05509804bf97e2c91ce75eb.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/blaze.js.map"
-                }
-              }
-            },
-            "/packages/templating.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/templating.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/599ba307216da826d8b335332ebcc9a497a369a0.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/599ba307216da826d8b335332ebcc9a497a369a0.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/templating.js.map"
-                }
-              }
-            },
-            "/packages/spacebars.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/spacebars.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7f53771c84a2eafac2b561c9796dda0d8af8e7f5.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7f53771c84a2eafac2b561c9796dda0d8af8e7f5.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
-                }
-              }
-            },
-            "/packages/stylus.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/stylus.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/48b7e3e0953c004a73211d7489462e73ed11be2c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/48b7e3e0953c004a73211d7489462e73ed11be2c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/stylus.js.map"
-                }
-              }
-            },
-            "/packages/localstorage.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/localstorage.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/localstorage.js.map"
-                }
-              }
-            },
-            "/packages/accounts-base.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/accounts-base.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/88bb0577cebfbd40b522bb337f8ff8af92244c2f.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/88bb0577cebfbd40b522bb337f8ff8af92244c2f.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map"
-                }
-              }
-            },
-            "/packages/ui.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ui.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ui.js.map"
-                }
-              }
-            },
-            "/packages/anti_i18n.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/anti_i18n.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/b753e9e958be5df82d8bdde8dc342a2870ccf372.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/b753e9e958be5df82d8bdde8dc342a2870ccf372.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/anti_i18n.js.map"
-                }
-              }
-            },
-            "/packages/sha.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/sha.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/sha.js.map"
-                }
-              }
-            },
-            "/packages/srp.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/srp.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/srp.js.map"
-                }
-              }
-            },
-            "/packages/accounts-password.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/accounts-password.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/accounts-password.js.map"
-                }
-              }
-            },
-            "/packages/ian_accounts-ui-bootstrap-3.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ian_accounts-ui-bootstrap-3.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d67ceee2f010b3cf5ed29594e80b370649b2452d.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d67ceee2f010b3cf5ed29594e80b370649b2452d.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/ian_accounts-ui-bootstrap-3.js.map"
-                }
-              }
-            },
-            "/packages/iron_core.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_core.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_core.js.map"
-                }
-              }
-            },
-            "/packages/iron_dynamic-template.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d425554c9847e4a80567f8ca55719cd6ae3f2722.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d425554c9847e4a80567f8ca55719cd6ae3f2722.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js.map"
-                }
-              }
-            },
-            "/packages/iron_layout.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_layout.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map"
-                }
-              }
-            },
-            "/packages/iron_url.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_url.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/6979e41649a22dcf609df30fc533e36037c7ae58.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/6979e41649a22dcf609df30fc533e36037c7ae58.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_url.js.map"
-                }
-              }
-            },
-            "/packages/iron_middleware-stack.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0e0f6983a838a6516556b08e62894f89720e2c44.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0e0f6983a838a6516556b08e62894f89720e2c44.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js.map"
-                }
-              }
-            },
-            "/packages/iron_location.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_location.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ca4f0f6672edbfb6cafab6e5c024208d9364eac9.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ca4f0f6672edbfb6cafab6e5c024208d9364eac9.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_location.js.map"
-                }
-              }
-            },
-            "/packages/iron_controller.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_controller.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/b02790701804563eafedb2e68c602154983ade06.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/b02790701804563eafedb2e68c602154983ade06.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_controller.js.map"
-                }
-              }
-            },
-            "/packages/iron_router.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_router.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/a427868585af16bb88b7c9996b2449aebb8dbf51.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/a427868585af16bb88b7c9996b2449aebb8dbf51.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/iron_router.js.map"
-                }
-              }
-            },
-            "/packages/lai_collection-extensions.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/lai_collection-extensions.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/05f46dd1b13004b8570eac5e9f57da75db0a2e46.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/05f46dd1b13004b8570eac5e9f57da75db0a2e46.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/lai_collection-extensions.js.map"
-                }
-              }
-            },
-            "/packages/dburles_mongo-collection-instances.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/dburles_mongo-collection-instances.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d5ad01381e3d2dc4928658b836a4e039b045e36f.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d5ad01381e3d2dc4928658b836a4e039b045e36f.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/dburles_mongo-collection-instances.js.map"
-                }
-              }
-            },
-            "/packages/gwendall_session-json.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/gwendall_session-json.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/c50a8e38f20e14af58c2733d2b57581539b06a47.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/c50a8e38f20e14af58c2733d2b57581539b06a47.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/gwendall_session-json.js.map"
-                }
-              }
-            },
-            "/packages/aldeed_template-extension.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/aldeed_template-extension.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/2e25a48119980b3ff2fba34bcf67b18deac45199.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/2e25a48119980b3ff2fba34bcf67b18deac45199.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/aldeed_template-extension.js.map"
-                }
-              }
-            },
-            "/packages/babrahams_editable-json.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/babrahams_editable-json.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ba106fe1ce5793c6d3b00bf89eb297d0e486b024.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ba106fe1ce5793c6d3b00bf89eb297d0e486b024.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/babrahams_editable-json.js.map"
-                }
-              }
-            },
-            "/packages/meteortoys_toykit.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteortoys_toykit.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/452e1bcda24b2cde22dcc42a66c5a4aa645a4a42.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/452e1bcda24b2cde22dcc42a66c5a4aa645a4a42.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteortoys_toykit.js.map"
-                }
-              }
-            },
-            "/packages/msavin_mongol.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/msavin_mongol.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0c45007b84c82ea33a56f9380bf82434a7be19db.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0c45007b84c82ea33a56f9380bf82434a7be19db.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/msavin_mongol.js.map"
-                }
-              }
-            },
-            "/packages/fortawesome_fontawesome.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/8cd2558178cb5dc3b19ea38fb6247e48cc021ee2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/8cd2558178cb5dc3b19ea38fb6247e48cc021ee2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome.js.map"
-                }
-              }
-            },
-            "/packages/froala_editor.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/froala_editor.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/305aaca16663dedbda154e1885781c2b1349af48.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/305aaca16663dedbda154e1885781c2b1349af48.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/froala_editor.js.map"
-                }
-              }
-            },
-            "/packages/froala_editor-reactive.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/froala_editor-reactive.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/8d22a5942e0f42f6c9c128dd0c2cae16cd2a36e7.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/8d22a5942e0f42f6c9c128dd0c2cae16cd2a36e7.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/froala_editor-reactive.js.map"
-                }
-              }
-            },
-            "/packages/coffeescript.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/coffeescript.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/coffeescript.js.map"
-                }
-              }
-            },
-            "/packages/practicalmeteor_chai.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/practicalmeteor_chai.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/practicalmeteor_chai.js.map"
-                }
-              }
-            },
-            "/packages/practicalmeteor_loglevel.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/practicalmeteor_loglevel.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/practicalmeteor_loglevel.js.map"
-                }
-              }
-            },
-            "/packages/velocity_core.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_core.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/cecf2443254038195518d507d5fe0ecdc5dce435.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/cecf2443254038195518d507d5fe0ecdc5dce435.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
-                }
-              }
-            },
-            "/packages/velocity_shim.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_shim.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/14363d085a412115605c41536e4f2867425b89d5.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/14363d085a412115605c41536e4f2867425b89d5.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_shim.js.map"
-                }
-              }
-            },
-            "/packages/sanjo_jasmine.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/2278340fa64c071f6d8497a1fe77e4a412864fef.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/2278340fa64c071f6d8497a1fe77e4a412864fef.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
-                }
-              }
-            },
-            "/packages/amplify.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/amplify.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/amplify.js.map"
-                }
-              }
-            },
-            "/packages/less.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/less.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/less.js.map"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/6f95f68ae89684415e5ad307900c26b670351e36.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/6f95f68ae89684415e5ad307900c26b670351e36.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js.map"
-                }
-              }
-            },
-            "/packages/webapp.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/webapp.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
-                }
-              }
-            },
-            "/packages/livedata.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/livedata.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/livedata.js.map"
-                }
-              }
-            },
-            "/packages/launch-screen.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/launch-screen.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map"
-                }
-              }
-            },
-            "/packages/global-imports.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/global-imports.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/templates/application/template.layout.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/client/templates/application/template.layout.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/templates/template.projectPage.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/client/templates/template.projectPage.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/templates/template.projects.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/client/templates/template.projects.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/collections/links.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/collections/links.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/collections/nodes.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/collections/nodes.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/collections/projects.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/collections/projects.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/collections/texts.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/collections/texts.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/graph.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/graph.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/mapGen.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/mapGen.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/routes.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/lib/routes.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/js/projects.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/client/js/projects.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/js/subscriptions.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/client/js/subscriptions.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/main.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/client/main.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/service-configuration.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/service-configuration.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map"
-                }
-              }
-            },
-            "/packages/velocity_test-proxy.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_test-proxy.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/4b041a7016775526ee866c25d5fb1d1039ef28c1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/4b041a7016775526ee866c25d5fb1d1039ef28c1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_test-proxy.js.map"
-                }
-              }
-            },
-            "/packages/velocity_node-soft-mirror.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_node-soft-mirror.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/acf27a727fa9aa2f29f237ade3b2046fb9890e36.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/acf27a727fa9aa2f29f237ade3b2046fb9890e36.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_node-soft-mirror.js.map"
-                }
-              }
-            },
-            "/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.css": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.css"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "css"
-                }
-              }
-            },
-            "/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.css.map"
-                }
-              }
-            },
-            "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.ttf": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.ttf"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/meteortoys_toykit/public/Liberation.ttf": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/meteortoys_toykit/public/Liberation.ttf"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/fortawesome_fontawesome/fonts/FontAwesome.otf": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/fonts/FontAwesome.otf"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/velocity_logo.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_logo.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/velocity_cog.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_cog.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/icon-time.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/icon-time.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/readme.txt": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/madhuvanthiguruprasad/sourcecode/writingTree/.meteor/local/build/programs/web.browser/app/readme.txt"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "manifest.json": {
-              "type": "object",
-              "members": {
-                "content": {
-                  "type": "constant",
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/81e2f06cff198adaa81b3bc09fc4f3728b7370ec.map\",\"size\":109437,\"hash\":\"81e2f06cff198adaa81b3bc09fc4f3728b7370ec\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?da8974b7231dd8c0caccb5f322dcf97329d486d1\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map\",\"size\":25926,\"hash\":\"da8974b7231dd8c0caccb5f322dcf97329d486d1\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?517c8fe8ed6408951a30941e64a5383a7174bcfa\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/517c8fe8ed6408951a30941e64a5383a7174bcfa.map\",\"size\":68185,\"hash\":\"517c8fe8ed6408951a30941e64a5383a7174bcfa\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?ac81167b8513b85b926c167bba423981b0c4cf9c\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/ac81167b8513b85b926c167bba423981b0c4cf9c.map\",\"size\":35647,\"hash\":\"ac81167b8513b85b926c167bba423981b0c4cf9c\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?e8806aa7782b729b2517ebc0cd10b321667f1427\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/e8806aa7782b729b2517ebc0cd10b321667f1427.map\",\"size\":455881,\"hash\":\"e8806aa7782b729b2517ebc0cd10b321667f1427\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/41b62dcceb3ce0de6ca79c6aed088cccde6a44d8.map\",\"size\":617153,\"hash\":\"41b62dcceb3ce0de6ca79c6aed088cccde6a44d8\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/insecure.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\",\"sourceMap\":\"packages/insecure.js.map\",\"sourceMapUrl\":\"/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map\",\"size\":1290,\"hash\":\"3dc9d4a2dad55999b5b15a447d57f3d5fb66b290\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?052f30e968644b2b39a96605ffee73a7684ff37b\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/052f30e968644b2b39a96605ffee73a7684ff37b.map\",\"size\":147662,\"hash\":\"052f30e968644b2b39a96605ffee73a7684ff37b\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?9a5ea03bf057815385bf569c7acc2c285c005491\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/9a5ea03bf057815385bf569c7acc2c285c005491.map\",\"size\":17152,\"hash\":\"9a5ea03bf057815385bf569c7acc2c285c005491\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?dd8bac56f8fd3666d433d2285ae01e52597cc51a\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map\",\"size\":1296513,\"hash\":\"dd8bac56f8fd3666d433d2285ae01e52597cc51a\"},{\"path\":\"packages/twbs_bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/twbs_bootstrap.js?e448ccf9152d78f24a6299968e1f39c997a02dbc\",\"sourceMap\":\"packages/twbs_bootstrap.js.map\",\"sourceMapUrl\":\"/packages/e448ccf9152d78f24a6299968e1f39c997a02dbc.map\",\"size\":295541,\"hash\":\"e448ccf9152d78f24a6299968e1f39c997a02dbc\"},{\"path\":\"packages/d3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/d3.js?9961945f4971ab1b110ad9b3f9bd0f23cdc15944\",\"sourceMap\":\"packages/d3.js.map\",\"sourceMapUrl\":\"/packages/9961945f4971ab1b110ad9b3f9bd0f23cdc15944.map\",\"size\":1082527,\"hash\":\"9961945f4971ab1b110ad9b3f9bd0f23cdc15944\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?e436deefadc999c21b6fd16e8e1ecce55c3c3a55\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map\",\"size\":6497,\"hash\":\"e436deefadc999c21b6fd16e8e1ecce55c3c3a55\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?567eb96d5d22631c03d6aca6afa4c42f0d1295f2\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/567eb96d5d22631c03d6aca6afa4c42f0d1295f2.map\",\"size\":60161,\"hash\":\"567eb96d5d22631c03d6aca6afa4c42f0d1295f2\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?efa68f65e67544b5a05509804bf97e2c91ce75eb\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/efa68f65e67544b5a05509804bf97e2c91ce75eb.map\",\"size\":391530,\"hash\":\"efa68f65e67544b5a05509804bf97e2c91ce75eb\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/599ba307216da826d8b335332ebcc9a497a369a0.map\",\"size\":11910,\"hash\":\"599ba307216da826d8b335332ebcc9a497a369a0\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?7f53771c84a2eafac2b561c9796dda0d8af8e7f5\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/7f53771c84a2eafac2b561c9796dda0d8af8e7f5.map\",\"size\":42206,\"hash\":\"7f53771c84a2eafac2b561c9796dda0d8af8e7f5\"},{\"path\":\"packages/stylus.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/stylus.js?48b7e3e0953c004a73211d7489462e73ed11be2c\",\"sourceMap\":\"packages/stylus.js.map\",\"sourceMapUrl\":\"/packages/48b7e3e0953c004a73211d7489462e73ed11be2c.map\",\"size\":1288,\"hash\":\"48b7e3e0953c004a73211d7489462e73ed11be2c\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?88bb0577cebfbd40b522bb337f8ff8af92244c2f\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/88bb0577cebfbd40b522bb337f8ff8af92244c2f.map\",\"size\":109093,\"hash\":\"88bb0577cebfbd40b522bb337f8ff8af92244c2f\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/anti_i18n.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/anti_i18n.js?b753e9e958be5df82d8bdde8dc342a2870ccf372\",\"sourceMap\":\"packages/anti_i18n.js.map\",\"sourceMapUrl\":\"/packages/b753e9e958be5df82d8bdde8dc342a2870ccf372.map\",\"size\":11110,\"hash\":\"b753e9e958be5df82d8bdde8dc342a2870ccf372\"},{\"path\":\"packages/sha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615\",\"sourceMap\":\"packages/sha.js.map\",\"sourceMapUrl\":\"/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map\",\"size\":19584,\"hash\":\"65ef52f7221944768bfc2049d6b7e163c8ae2615\"},{\"path\":\"packages/srp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd\",\"sourceMap\":\"packages/srp.js.map\",\"sourceMapUrl\":\"/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map\",\"size\":173470,\"hash\":\"e2e28156e8c912d504a3586351c8a1119f664cfd\"},{\"path\":\"packages/accounts-password.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-password.js?3845cc71ad2dc1378b7d8cc4164a78359506dd40\",\"sourceMap\":\"packages/accounts-password.js.map\",\"sourceMapUrl\":\"/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map\",\"size\":33170,\"hash\":\"3845cc71ad2dc1378b7d8cc4164a78359506dd40\"},{\"path\":\"packages/ian_accounts-ui-bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ian_accounts-ui-bootstrap-3.js?d67ceee2f010b3cf5ed29594e80b370649b2452d\",\"sourceMap\":\"packages/ian_accounts-ui-bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/d67ceee2f010b3cf5ed29594e80b370649b2452d.map\",\"size\":447379,\"hash\":\"d67ceee2f010b3cf5ed29594e80b370649b2452d\"},{\"path\":\"packages/iron_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_core.js?d966a1f70c94792fd94c8a155bdbef9bec5e0047\",\"sourceMap\":\"packages/iron_core.js.map\",\"sourceMapUrl\":\"/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map\",\"size\":32915,\"hash\":\"d966a1f70c94792fd94c8a155bdbef9bec5e0047\"},{\"path\":\"packages/iron_dynamic-template.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_dynamic-template.js?d425554c9847e4a80567f8ca55719cd6ae3f2722\",\"sourceMap\":\"packages/iron_dynamic-template.js.map\",\"sourceMapUrl\":\"/packages/d425554c9847e4a80567f8ca55719cd6ae3f2722.map\",\"size\":86389,\"hash\":\"d425554c9847e4a80567f8ca55719cd6ae3f2722\"},{\"path\":\"packages/iron_layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_layout.js?4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062\",\"sourceMap\":\"packages/iron_layout.js.map\",\"sourceMapUrl\":\"/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map\",\"size\":62058,\"hash\":\"4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062\"},{\"path\":\"packages/iron_url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_url.js?6979e41649a22dcf609df30fc533e36037c7ae58\",\"sourceMap\":\"packages/iron_url.js.map\",\"sourceMapUrl\":\"/packages/6979e41649a22dcf609df30fc533e36037c7ae58.map\",\"size\":69302,\"hash\":\"6979e41649a22dcf609df30fc533e36037c7ae58\"},{\"path\":\"packages/iron_middleware-stack.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_middleware-stack.js?0e0f6983a838a6516556b08e62894f89720e2c44\",\"sourceMap\":\"packages/iron_middleware-stack.js.map\",\"sourceMapUrl\":\"/packages/0e0f6983a838a6516556b08e62894f89720e2c44.map\",\"size\":47239,\"hash\":\"0e0f6983a838a6516556b08e62894f89720e2c44\"},{\"path\":\"packages/iron_location.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_location.js?ca4f0f6672edbfb6cafab6e5c024208d9364eac9\",\"sourceMap\":\"packages/iron_location.js.map\",\"sourceMapUrl\":\"/packages/ca4f0f6672edbfb6cafab6e5c024208d9364eac9.map\",\"size\":52275,\"hash\":\"ca4f0f6672edbfb6cafab6e5c024208d9364eac9\"},{\"path\":\"packages/iron_controller.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_controller.js?b02790701804563eafedb2e68c602154983ade06\",\"sourceMap\":\"packages/iron_controller.js.map\",\"sourceMapUrl\":\"/packages/b02790701804563eafedb2e68c602154983ade06.map\",\"size\":41091,\"hash\":\"b02790701804563eafedb2e68c602154983ade06\"},{\"path\":\"packages/iron_router.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_router.js?a427868585af16bb88b7c9996b2449aebb8dbf51\",\"sourceMap\":\"packages/iron_router.js.map\",\"sourceMapUrl\":\"/packages/a427868585af16bb88b7c9996b2449aebb8dbf51.map\",\"size\":216733,\"hash\":\"a427868585af16bb88b7c9996b2449aebb8dbf51\"},{\"path\":\"packages/lai_collection-extensions.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/lai_collection-extensions.js?05f46dd1b13004b8570eac5e9f57da75db0a2e46\",\"sourceMap\":\"packages/lai_collection-extensions.js.map\",\"sourceMapUrl\":\"/packages/05f46dd1b13004b8570eac5e9f57da75db0a2e46.map\",\"size\":12618,\"hash\":\"05f46dd1b13004b8570eac5e9f57da75db0a2e46\"},{\"path\":\"packages/dburles_mongo-collection-instances.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/dburles_mongo-collection-instances.js?d5ad01381e3d2dc4928658b836a4e039b045e36f\",\"sourceMap\":\"packages/dburles_mongo-collection-instances.js.map\",\"sourceMapUrl\":\"/packages/d5ad01381e3d2dc4928658b836a4e039b045e36f.map\",\"size\":5444,\"hash\":\"d5ad01381e3d2dc4928658b836a4e039b045e36f\"},{\"path\":\"packages/gwendall_session-json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/gwendall_session-json.js?c50a8e38f20e14af58c2733d2b57581539b06a47\",\"sourceMap\":\"packages/gwendall_session-json.js.map\",\"sourceMapUrl\":\"/packages/c50a8e38f20e14af58c2733d2b57581539b06a47.map\",\"size\":11518,\"hash\":\"c50a8e38f20e14af58c2733d2b57581539b06a47\"},{\"path\":\"packages/aldeed_template-extension.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_template-extension.js?2e25a48119980b3ff2fba34bcf67b18deac45199\",\"sourceMap\":\"packages/aldeed_template-extension.js.map\",\"sourceMapUrl\":\"/packages/2e25a48119980b3ff2fba34bcf67b18deac45199.map\",\"size\":48913,\"hash\":\"2e25a48119980b3ff2fba34bcf67b18deac45199\"},{\"path\":\"packages/babrahams_editable-json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/babrahams_editable-json.js?ba106fe1ce5793c6d3b00bf89eb297d0e486b024\",\"sourceMap\":\"packages/babrahams_editable-json.js.map\",\"sourceMapUrl\":\"/packages/ba106fe1ce5793c6d3b00bf89eb297d0e486b024.map\",\"size\":105478,\"hash\":\"ba106fe1ce5793c6d3b00bf89eb297d0e486b024\"},{\"path\":\"packages/meteortoys_toykit.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteortoys_toykit.js?452e1bcda24b2cde22dcc42a66c5a4aa645a4a42\",\"sourceMap\":\"packages/meteortoys_toykit.js.map\",\"sourceMapUrl\":\"/packages/452e1bcda24b2cde22dcc42a66c5a4aa645a4a42.map\",\"size\":20449,\"hash\":\"452e1bcda24b2cde22dcc42a66c5a4aa645a4a42\"},{\"path\":\"packages/msavin_mongol.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/msavin_mongol.js?0c45007b84c82ea33a56f9380bf82434a7be19db\",\"sourceMap\":\"packages/msavin_mongol.js.map\",\"sourceMapUrl\":\"/packages/0c45007b84c82ea33a56f9380bf82434a7be19db.map\",\"size\":161654,\"hash\":\"0c45007b84c82ea33a56f9380bf82434a7be19db\"},{\"path\":\"packages/fortawesome_fontawesome.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/fortawesome_fontawesome.js?8cd2558178cb5dc3b19ea38fb6247e48cc021ee2\",\"sourceMap\":\"packages/fortawesome_fontawesome.js.map\",\"sourceMapUrl\":\"/packages/8cd2558178cb5dc3b19ea38fb6247e48cc021ee2.map\",\"size\":1308,\"hash\":\"8cd2558178cb5dc3b19ea38fb6247e48cc021ee2\"},{\"path\":\"packages/froala_editor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/froala_editor.js?305aaca16663dedbda154e1885781c2b1349af48\",\"sourceMap\":\"packages/froala_editor.js.map\",\"sourceMapUrl\":\"/packages/305aaca16663dedbda154e1885781c2b1349af48.map\",\"size\":268722,\"hash\":\"305aaca16663dedbda154e1885781c2b1349af48\"},{\"path\":\"packages/froala_editor-reactive.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/froala_editor-reactive.js?8d22a5942e0f42f6c9c128dd0c2cae16cd2a36e7\",\"sourceMap\":\"packages/froala_editor-reactive.js.map\",\"sourceMapUrl\":\"/packages/8d22a5942e0f42f6c9c128dd0c2cae16cd2a36e7.map\",\"size\":20038,\"hash\":\"8d22a5942e0f42f6c9c128dd0c2cae16cd2a36e7\"},{\"path\":\"packages/coffeescript.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b\",\"sourceMap\":\"packages/coffeescript.js.map\",\"sourceMapUrl\":\"/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map\",\"size\":1294,\"hash\":\"969f68786bbc68e6cad299e74922a53af3d1404b\"},{\"path\":\"packages/practicalmeteor_chai.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/practicalmeteor_chai.js?7fbbbec9a13f4adf082b394c5ddd7230d84afc48\",\"sourceMap\":\"packages/practicalmeteor_chai.js.map\",\"sourceMapUrl\":\"/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map\",\"size\":570118,\"hash\":\"7fbbbec9a13f4adf082b394c5ddd7230d84afc48\"},{\"path\":\"packages/practicalmeteor_loglevel.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/practicalmeteor_loglevel.js?9185331dfa11fd235edfbef93838d4ca3244d638\",\"sourceMap\":\"packages/practicalmeteor_loglevel.js.map\",\"sourceMapUrl\":\"/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map\",\"size\":28719,\"hash\":\"9185331dfa11fd235edfbef93838d4ca3244d638\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?cecf2443254038195518d507d5fe0ecdc5dce435\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/cecf2443254038195518d507d5fe0ecdc5dce435.map\",\"size\":12238,\"hash\":\"cecf2443254038195518d507d5fe0ecdc5dce435\"},{\"path\":\"packages/velocity_shim.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_shim.js?14363d085a412115605c41536e4f2867425b89d5\",\"sourceMap\":\"packages/velocity_shim.js.map\",\"sourceMapUrl\":\"/packages/14363d085a412115605c41536e4f2867425b89d5.map\",\"size\":2905,\"hash\":\"14363d085a412115605c41536e4f2867425b89d5\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?2278340fa64c071f6d8497a1fe77e4a412864fef\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/2278340fa64c071f6d8497a1fe77e4a412864fef.map\",\"size\":537993,\"hash\":\"2278340fa64c071f6d8497a1fe77e4a412864fef\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6f95f68ae89684415e5ad307900c26b670351e36\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6f95f68ae89684415e5ad307900c26b670351e36.map\",\"size\":91132,\"hash\":\"6f95f68ae89684415e5ad307900c26b670351e36\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/launch-screen.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/launch-screen.js?13e1092ebecdb7208762500188f1dc2dea5603e9\",\"sourceMap\":\"packages/launch-screen.js.map\",\"sourceMapUrl\":\"/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map\",\"size\":9707,\"hash\":\"13e1092ebecdb7208762500188f1dc2dea5603e9\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?22d03dcce14887ed80b3dc2aa0c61236a19f5551\",\"size\":1000,\"hash\":\"22d03dcce14887ed80b3dc2aa0c61236a19f5551\"},{\"path\":\"app/client/templates/application/template.layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/templates/application/template.layout.js?c8d44cee1bd20f8bd4c74813aa0ffb82c3031856\",\"size\":856,\"hash\":\"c8d44cee1bd20f8bd4c74813aa0ffb82c3031856\"},{\"path\":\"app/client/templates/template.projectPage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/templates/template.projectPage.js?9c93e739be9615b205888d18d22582c2268a7297\",\"size\":2507,\"hash\":\"9c93e739be9615b205888d18d22582c2268a7297\"},{\"path\":\"app/client/templates/template.projects.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/templates/template.projects.js?09f295e80842992ebdc1bb1fd8cdbdf8fdfb3e1a\",\"size\":2404,\"hash\":\"09f295e80842992ebdc1bb1fd8cdbdf8fdfb3e1a\"},{\"path\":\"app/lib/collections/links.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/collections/links.js?62954440c18060a9a8b14c1fb62aa2f4f1c6d757\",\"size\":58,\"hash\":\"62954440c18060a9a8b14c1fb62aa2f4f1c6d757\"},{\"path\":\"app/lib/collections/nodes.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/collections/nodes.js?5083dfadab45530ef371bdd5927956b9d3244fb4\",\"size\":1728,\"hash\":\"5083dfadab45530ef371bdd5927956b9d3244fb4\"},{\"path\":\"app/lib/collections/projects.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/collections/projects.js?a71b128687632882f75b1559205cc5a016c88251\",\"size\":2661,\"hash\":\"a71b128687632882f75b1559205cc5a016c88251\"},{\"path\":\"app/lib/collections/texts.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/collections/texts.js?a19c79ebc562093450840e72cc29e873353e1b3b\",\"size\":1463,\"hash\":\"a19c79ebc562093450840e72cc29e873353e1b3b\"},{\"path\":\"app/lib/graph.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/graph.js?e64fd2198055999c9d897307417b445b5c16fbe7\",\"size\":3472,\"hash\":\"e64fd2198055999c9d897307417b445b5c16fbe7\"},{\"path\":\"app/lib/mapGen.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/mapGen.js?41db4c01849b5743c30794f4986390b5412ac90e\",\"size\":4081,\"hash\":\"41db4c01849b5743c30794f4986390b5412ac90e\"},{\"path\":\"app/lib/routes.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/routes.js?2856e4cc95a94678bee077a392370c48b52f6238\",\"size\":497,\"hash\":\"2856e4cc95a94678bee077a392370c48b52f6238\"},{\"path\":\"app/client/js/projects.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/js/projects.js?3041ed146e78e03f769ba8ecb9ad1edf5127348d\",\"size\":3725,\"hash\":\"3041ed146e78e03f769ba8ecb9ad1edf5127348d\"},{\"path\":\"app/client/js/subscriptions.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/js/subscriptions.js?d3e863fb82567d2dec78bcb4e534c52a04c9c863\",\"size\":100,\"hash\":\"d3e863fb82567d2dec78bcb4e534c52a04c9c863\"},{\"path\":\"app/client/main.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/main.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/velocity_test-proxy.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_test-proxy.js?4b041a7016775526ee866c25d5fb1d1039ef28c1\",\"sourceMap\":\"packages/velocity_test-proxy.js.map\",\"sourceMapUrl\":\"/packages/4b041a7016775526ee866c25d5fb1d1039ef28c1.map\",\"size\":1304,\"hash\":\"4b041a7016775526ee866c25d5fb1d1039ef28c1\"},{\"path\":\"packages/velocity_node-soft-mirror.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_node-soft-mirror.js?acf27a727fa9aa2f29f237ade3b2046fb9890e36\",\"sourceMap\":\"packages/velocity_node-soft-mirror.js.map\",\"sourceMapUrl\":\"/packages/acf27a727fa9aa2f29f237ade3b2046fb9890e36.map\",\"size\":11067,\"hash\":\"acf27a727fa9aa2f29f237ade3b2046fb9890e36\"},{\"path\":\"d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.css\",\"sourceMap\":\"d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.css.map\",\"sourceMapUrl\":\"/d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4.map\",\"size\":252461,\"hash\":\"d770fdb1eb327e57bf7c6dcee4cf96a3da8086b4\"},{\"path\":\"packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot\",\"size\":20127,\"hash\":\"86b6f62b7853e67d3e635f6512a5a5efc58ea3c3\"},{\"path\":\"packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg\",\"size\":108738,\"hash\":\"de51a8494180a6db074af2dee2383f0a363c5b08\"},{\"path\":\"packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.ttf\",\"size\":45404,\"hash\":\"44bc1850f570972267b169ae18f1cb06b611ffa2\"},{\"path\":\"packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff\",\"size\":23424,\"hash\":\"278e49a86e634da6f2a02f3b47dd9d2a8f26210f\"},{\"path\":\"packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2\",\"size\":18028,\"hash\":\"ca35b697d99cae4d1b60f2d60fcd37771987eb07\"},{\"path\":\"packages/meteortoys_toykit/public/Liberation.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/meteortoys_toykit/public/Liberation.ttf\",\"size\":61144,\"hash\":\"f882269241d0d3a0a3161dae5611e0abfa24958c\"},{\"path\":\"packages/fortawesome_fontawesome/fonts/FontAwesome.otf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/fortawesome_fontawesome/fonts/FontAwesome.otf\",\"size\":85908,\"hash\":\"6270a4a561a69fef5f5cc18cdf9efc256ec2ccbe\"},{\"path\":\"packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot\",\"size\":56006,\"hash\":\"0183979056f0b87616cd99d5c54a48f3b771eee6\"},{\"path\":\"packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg\",\"size\":287007,\"hash\":\"cd980eab6db5fa57db670cb2e4278e67e1a4d6c9\"},{\"path\":\"packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf\",\"size\":112160,\"hash\":\"6225ccc4ec94d060f19efab97ca42d842845b949\"},{\"path\":\"packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff\",\"size\":65452,\"hash\":\"7d65e0227d0d7cdc1718119cd2a7dce0638f151c\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_logo.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_logo.svg\",\"size\":3723,\"hash\":\"bd19ecdc8eb1084f7bb562c298e4ce41f9cdc698\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_cog.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_cog.svg\",\"size\":987,\"hash\":\"6e74acfffcbd2bafdc8a95d9db7762ece07b1e81\"},{\"path\":\"packages/velocity_html-reporter/lib/icon-time.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/icon-time.png\",\"size\":2834,\"hash\":\"868f492022a4dab0f1522de6aae0773531bc6e85\"},{\"path\":\"app/readme.txt\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/readme.txt\",\"size\":6611,\"hash\":\"77e3868ee669d7e5c2a34bb946e7c51ca203dc7e\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"9c18f5a3d0fbd95e2960b8aaebadbd98d3a879fa\"}],\"version\":\"623501918f0c8d59c78832d60b8aec712ecac5fe\"}"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "json"
-                }
-              }
-            }
-          }
-        },
-        "inlineScriptsAllowed": {
-          "type": "function"
-        },
-        "setInlineScriptsAllowed": {
-          "type": "function"
-        },
-        "setBundledJsCssPrefix": {
-          "type": "function"
-        },
-        "addStaticJs": {
-          "type": "function"
-        },
-        "getBoilerplate": {
-          "type": "function"
-        },
-        "additionalStaticJs": {
-          "type": "object"
-        },
-        "refreshableAssets": {
-          "type": "object",
-          "members": {
-            "allCss": {
-              "type": "array"
-            }
-          }
-        }
-      }
     }
   },
   "check": {
@@ -10019,38 +7555,6 @@ var packageMetadata = {
               }
             }
           }
-        }
-      }
-    }
-  },
-  "follower-livedata": {
-    "Follower": {
-      "type": "object",
-      "members": {
-        "connect": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "application-configuration": {
-    "AppConfig": {
-      "type": "object",
-      "members": {
-        "findGalaxy": {
-          "type": "function"
-        },
-        "getAppConfig": {
-          "type": "function"
-        },
-        "getStarForThisJob": {
-          "type": "function"
-        },
-        "configurePackage": {
-          "type": "function"
-        },
-        "configureService": {
-          "type": "function"
         }
       }
     }
@@ -10324,6 +7828,12 @@ var packageMetadata = {
                 "upsert": {
                   "type": "function"
                 },
+                "rawCollection": {
+                  "type": "function"
+                },
+                "rawDatabase": {
+                  "type": "function"
+                },
                 "allow": {
                   "type": "function"
                 },
@@ -10349,11 +7859,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "hRKCgStK77rqBukKf"
+          "value": "tvzAYYk8Ndh7g9GSX"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "e9e452deae8443631e3fb5e10bb596f75b20e266"
+          "value": "2726c5e2b185cc2f66830c302d0b43dce3089a4b"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -10373,40 +7883,22 @@ var packageMetadata = {
     "NpmModuleBcrypt": {
       "type": "object",
       "members": {
-        "gen_salt_sync": {
-          "type": "function"
-        },
         "genSaltSync": {
-          "type": "function"
-        },
-        "gen_salt": {
           "type": "function"
         },
         "genSalt": {
           "type": "function"
         },
-        "encrypt_sync": {
-          "type": "function"
-        },
         "hashSync": {
           "type": "function"
         },
-        "encrypt": {
-          "type": "function"
-        },
         "hash": {
-          "type": "function"
-        },
-        "compare_sync": {
           "type": "function"
         },
         "compareSync": {
           "type": "function"
         },
         "compare": {
-          "type": "function"
-        },
-        "get_rounds": {
           "type": "function"
         },
         "getRounds": {
@@ -10431,13 +7923,13 @@ var packageMetadata = {
             }
           }
         },
-        "validateLoginAttempt": {
-          "type": "function"
-        },
         "onLogin": {
           "type": "function"
         },
         "onLoginFailure": {
+          "type": "function"
+        },
+        "validateLoginAttempt": {
           "type": "function"
         },
         "registerLoginHandler": {
@@ -10555,6 +8047,12 @@ var packageMetadata = {
               "type": "function"
             },
             "upsert": {
+              "type": "function"
+            },
+            "rawCollection": {
+              "type": "function"
+            },
+            "rawDatabase": {
               "type": "function"
             },
             "allow": {
@@ -11561,6 +9059,12 @@ var packageMetadata = {
         "upsert": {
           "type": "function"
         },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
         "allow": {
           "type": "function"
         },
@@ -11588,6 +9092,12 @@ var packageMetadata = {
           "type": "function"
         },
         "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
           "type": "function"
         },
         "allow": {
@@ -11619,6 +9129,12 @@ var packageMetadata = {
         "upsert": {
           "type": "function"
         },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
         "allow": {
           "type": "function"
         },
@@ -11646,6 +9162,12 @@ var packageMetadata = {
           "type": "function"
         },
         "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
           "type": "function"
         },
         "allow": {
@@ -11677,6 +9199,12 @@ var packageMetadata = {
         "upsert": {
           "type": "function"
         },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
         "allow": {
           "type": "function"
         },
@@ -11704,6 +9232,12 @@ var packageMetadata = {
           "type": "function"
         },
         "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
           "type": "function"
         },
         "allow": {
@@ -11780,13 +9314,10 @@ var packageMetadata = {
             }
           }
         },
-        "parseConstraint": {
+        "parsePackageConstraint": {
           "type": "function"
         },
         "validatePackageName": {
-          "type": "function"
-        },
-        "constraintToFullString": {
           "type": "function"
         },
         "invalidFirstFormatConstraint": {
@@ -11829,7 +9360,84 @@ var packageMetadata = {
                 },
                 "pid": {
                   "type": "constant",
-                  "value": 29820
+                  "value": 37729
+                },
+                "fout": {
+                  "type": "constant",
+                  "value": 38
+                },
+                "child": {
+                  "type": "object",
+                  "members": {
+                    "domain": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "signalCode": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "exitCode": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "pid": {
+                      "type": "constant",
+                      "value": 37729
+                    },
+                    "stdin": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "stdout": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "stderr": {
+                      "type": "null",
+                      "value": null
+                    },
+                    "stdio": {
+                      "type": "array"
+                    },
+                    "spawn": {
+                      "type": "function"
+                    },
+                    "kill": {
+                      "type": "function"
+                    },
+                    "ref": {
+                      "type": "function"
+                    },
+                    "unref": {
+                      "type": "function"
+                    },
+                    "setMaxListeners": {
+                      "type": "function"
+                    },
+                    "emit": {
+                      "type": "function"
+                    },
+                    "addListener": {
+                      "type": "function",
+                      "refID": 17
+                    },
+                    "on": {
+                      "ref": 17
+                    },
+                    "once": {
+                      "type": "function"
+                    },
+                    "removeListener": {
+                      "type": "function"
+                    },
+                    "removeAllListeners": {
+                      "type": "function"
+                    },
+                    "listeners": {
+                      "type": "function"
+                    }
+                  }
                 },
                 "getTaskName": {
                   "type": "function"
@@ -11993,6 +9601,12 @@ var packageMetadata = {
               "type": "function"
             },
             "upsert": {
+              "type": "function"
+            },
+            "rawCollection": {
+              "type": "function"
+            },
+            "rawDatabase": {
               "type": "function"
             },
             "allow": {
